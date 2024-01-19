@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/8b73893ac9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+      <div class="logo">
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ableton.svg/2560px-Ableton.svg.png" alt="ableton logo">
+      </div>
+      <div></div>
+      <nav id="nav-bar">
+        <ul>
+        <li><a class="nav-link" href="#video">Video</a></li>
+        <li><a class="nav-link" href="#courses">Courses</a></li>
+        <li><a class="nav-link" href="#form">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+      <h1>Dive into a world of music.</h1>
+      <div><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/QFCV6EkqRQs?si=fvhL7fHJt14zsZH-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div></div>
+      </section>
+    <section id="courses">
+      <h1>A course for every skill level.</h1>
+
+    <div class="grid">
+        <div class="course">
+        <div class="icon">
+          <i class="fa-solid fa-music"></i>
+        </div>
+        <div class="description">
+          <h2>Beginner</h2>
+          <p>Learn the basics of Ableton Live with hands on projects.</p>
+        </div>
+        <div class="learn-more"><button>Learn More</button></div>
+      </div>
+
+      <div class="course">
+        <div class="icon">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+        <div class="description">
+          <h2>Intermediate</h2>
+          <p>Go further into learning how you can use Ableton to make better songs faster.</p>
+        </div>
+        <div class="learn-more"><button>Learn More</button></div>
+      </div>
+      
+      <div class="course">
+        <div class="icon">
+          <i class="fa-solid fa-wave-square"></i>
+        </div>
+        <div class="description">
+          <h2>Advanced</h2>
+          <p>Go under the hood and discover how to use Ableton's tools to create anything you want.</p>
+        </div>
+        <div class="learn-more"><button>Learn More</button></div>
+      </div>
+    </div>
+    </section id="signup">
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h1>Sign up today.</h1>
+
+        <div>Email: <input id="email" name="email" type="email"  required placeholder="e.g. me@gmail.com"/></div>
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+    </main>
+
+</body>
+</html>
